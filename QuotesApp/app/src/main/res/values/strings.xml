@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Quotes App</string>
-    <string name="new_quote">New Quote</string>
-    <string name="retry">Retry</string>
-    <string name="loading_failed">Loading Failed</string>
-</resources>
