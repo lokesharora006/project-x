@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "459808752097",
+    "project_id": "indiahomez-55383",
+    "storage_bucket": "indiahomez-55383.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459808752097:android:fda472e660c552446192a0",
+        "android_client_info": {
+          "package_name": "com.example.indiahomz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSz2-CCCMDDuKPwOSD7bYbM7QCTYQ3FlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

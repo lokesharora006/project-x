@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bikebuddy">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Add Your Details"
+        android:textColor="#8E00D1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="First Name:"
+        android:textSize="20sp"
+        android:textColor="#8E00D1"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:drawablePadding="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="textPersonName"
+        android:backgroundTint="#8E00D1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameEditText"
+        android:layout_marginHorizontal="20dp"
+        android:text="Last Name:"
+        android:textColor="#8E00D1"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/lastNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@id/textView2"
+        android:drawablePadding="5dp"
+        android:inputType="textPersonName"
+        android:backgroundTint="#8E00D1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lastNameEditText"
+        android:layout_marginHorizontal="20dp"
+        android:text="Email:"
+        android:textColor="#8E00D1"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@id/textView3"
+        android:drawablePadding="5dp"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="#8E00D1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginHorizontal="20dp"
+        android:text="DOB:"
+        android:textColor="#8E00D1"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/dobEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@id/textView4"
+        android:drawablePadding="5dp"
+        android:inputType="date"
+        android:backgroundTint="#8E00D1"
+        android:textSize="20sp"
+        android:focusable="false"
+        />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:textColor="#111111"
+        android:background="@drawable/button_design"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        />
+
+</RelativeLayout>

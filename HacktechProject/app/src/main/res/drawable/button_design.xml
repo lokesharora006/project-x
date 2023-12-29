@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/button_stroke.xml -->
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Pressed state -->
+    <item android:state_pressed="false">
+        <shape
+            <solid
+                android:color="#00000000" /> <!-- Background color when pressed -->
+            <stroke
+                android:width="2dp"
+            android:color="@color/design_default_color_primary" /> <!-- Stroke color -->
+            <corners android:radius="20dp" /> <!-- Corner radius -->
+        </shape>
+    </item>
+
+    <!-- Default state -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- Default background color -->
+            <stroke
+                android:width="2dp"
+            android:color="#FF000000" /> <!-- Stroke color -->
+            <corners android:radius="20dp" /> <!-- Corner radius -->
+        </shape>
+    </item>
+
+
+</selector>
